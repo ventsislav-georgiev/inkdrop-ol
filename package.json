@@ -1,0 +1,23 @@
+{
+  "name": "ol",
+  "main": "./lib/main.js",
+  "version": "0.1.0",
+  "description": "OpenLayers map integration for Inkdrop",
+  "keywords": [
+    "inkdrop",
+    "openlayers",
+    "map"
+  ],
+  "repository": "https://github.com/ventsislav-georgiev/inkdrop-ol",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^5.x"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "@types/ol": "^6.4.2"
+  }
+}

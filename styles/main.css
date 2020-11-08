@@ -1,0 +1,15 @@
+.inkdrop-ol {
+  position: relative;
+  height: 350px;
+}
+
+.inkdrop-ol-err {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  color: darkred;
+  padding: 15px;
+}

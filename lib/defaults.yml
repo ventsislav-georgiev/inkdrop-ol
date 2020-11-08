@@ -1,0 +1,67 @@
+source: osm
+
+bing:
+  # Your Bing Maps Key from http://www.bingmapsportal.com/ here
+  key: ApTJzdkyN1DdFKkRAE6QIDtzihNaf6IWJsT-nQ_2eMoO4PN__0Tzhl2-WgJtXFSp
+  # Can be: RoadOnDemand, Aerial, AerialWithLabelsOnDemand, CanvasDark, OrdnanceSurvey
+  imagerySet: AerialWithLabelsOnDemand
+
+size:
+  fullscreen: false
+  height: 350px
+
+view:
+  # The initial center for the view.
+  center: [-6655.5402445057125, 6709968.258934638]
+  # Zoom level used to calculate the initial resolution for the view.
+  zoom: 9
+  # The minimum zoom level used to determine the resolution constraint. It is used together with maxZoom and zoomFactor.
+  minZoom: 0
+  # The maximum zoom level used to determine the resolution constraint. It is used together with minZoom and zoomFactor.
+  maxZoom: 28
+  # The zoom factor used to compute the corresponding resolution.
+  zoomFactor: 2
+  # Enable rotation. If false, a rotation constraint that always sets the rotation to zero is used.
+  enableRotation: true
+  # The initial rotation for the view in radians (positive rotation clockwise, 0 means North).
+  rotation: 0
+
+control:
+  attribution: false
+  rotate: true
+  zoom: true
+  zoomDuration: 250
+
+interaction:
+  # Whether Alt-Shift-drag rotate is desired.
+  altShiftDragRotate: true
+  # Interact only when the map has the focus. This affects the MouseWheelZoom and DragPan interactions and is useful when page scroll is desired for maps that do not have the browser's focus.
+  onFocusOnly: false
+  # Whether double click zoom is desired.
+  doubleClickZoom: true
+  # Whether keyboard interaction is desired.
+  keyboard: true
+  # Whether mousewheel zoom is desired.
+  mouseWheelZoom: true
+  # Whether Shift-drag zoom is desired.
+  shiftDragZoom: true
+  # Whether drag pan is desired.
+  dragPan: true
+  # Whether pinch rotate is desired.
+  pinchRotate: true
+  # Whether pinch zoom is desired.
+  pinchZoom: true
+  # Zoom level delta when using keyboard or double click zoom.
+  zoomDelta: 1
+  # Duration of the zoom animation in
+  zoomDuration: 250
+
+extra:
+  canvasTiles: false
+  cartoDb: false
+  # Your CartoDB account here
+  cartoDbAccount: documentation
+  cartoDbSql: 'select * from european_countries_e where area > 0'
+  cartoDbCss: 'polygon-fill: rgba(241, 135, 0, 0.7);'
+  cartoDbSubSql: ''
+  cartoDbSubCss: ''
