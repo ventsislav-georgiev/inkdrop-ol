@@ -1,8 +1,8 @@
 {
   "name": "ol",
   "main": "./lib/main.js",
-  "version": "0.1.0",
-  "description": "OpenLayers map integration for Inkdrop",
+  "version": "0.2.0",
+  "description": "OpenLayers map integration for Inkdrop. Supports OpenStreetMaps, Bing Maps and Google Maps.",
   "keywords": [
     "inkdrop",
     "openlayers",

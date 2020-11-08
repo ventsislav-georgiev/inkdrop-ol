@@ -1,3 +1,5 @@
+* v0.2.0:
+  * Google Maps source support
 * v0.1.0:
   * Supported OpenLayers sources:
     * OSM
