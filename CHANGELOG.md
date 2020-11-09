@@ -1,3 +1,5 @@
+* v0.9.0:
+  * Allow all OL supported icon options to be passed
 * v0.8.0:
   * Add icon to the center coords. Supports:
     * Icon change via dataUri
