@@ -12,7 +12,8 @@ ipm install ol
     source: bing
 
     view:
-      center: [135.506302, 34.652500]
+      # The center coordinates can be taken from Google Maps
+      center: [34.652500, 135.506302]
       zoom: 10
     ```
 
