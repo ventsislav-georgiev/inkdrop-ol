@@ -14,11 +14,11 @@ ipm install ol
     view:
       # The center coordinates can be taken from Google Maps
       center: [34.652500, 135.506302]
-      zoom: 10
+      zoom: 9
     ```
 
 Will produce:
-![image](https://user-images.githubusercontent.com/5616486/98509506-01fa7100-226a-11eb-98e7-ed6a395ec3a5.png)
+![image](https://user-images.githubusercontent.com/5616486/98526560-9375dd00-2282-11eb-9eca-b92f8ead32db.png)
 
 ## Usage
 

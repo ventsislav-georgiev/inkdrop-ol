@@ -1,3 +1,5 @@
+* v0.7.0:
+  * Transform center coords instead of changing the default map projection
 * v0.6.0:
   * Debounce map updates
 * v0.5.0:
