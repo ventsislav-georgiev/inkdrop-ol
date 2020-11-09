@@ -37,5 +37,13 @@ Will produce:
 
 ![image](https://user-images.githubusercontent.com/5616486/98488878-2fc4c300-2234-11eb-8822-2a7c2d5e3c21.png)
 
+<br/>
+
 ## Version history
 See the [CHANGELOG.md](https://github.com/ventsislav-georgiev/inkdrop-ol/blob/main/CHANGELOG.md) for an overview of what changed in each update.
+
+<br/>
+
+## Attributions
+
+Marker icon `pin` by [ONN Digital](https://www.iconfinder.com/ONNDigital)
