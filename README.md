@@ -8,6 +8,8 @@ ipm install ol
 ```
 
 ## Example
+
+### Bing Maps
     ```ol
     source: bing
 
@@ -17,8 +19,31 @@ ipm install ol
       zoom: 9
     ```
 
-Will produce:
-![image](https://user-images.githubusercontent.com/5616486/98526560-9375dd00-2282-11eb-9eca-b92f8ead32db.png)
+<img width="500px" src="https://user-images.githubusercontent.com/5616486/98526560-9375dd00-2282-11eb-9eca-b92f8ead32db.png" />
+
+
+### Center Marker
+    ```ol
+    centerMarker:
+      enabled: true
+      scale: 1
+    ```
+
+<img width="500px" src="https://user-images.githubusercontent.com/5616486/98551938-9256a700-22a6-11eb-92d6-d0184210a2d6.png" />
+
+### Custom Marker
+    ```ol
+    centerMarker:
+      enabled: true
+      scale: 1
+      anchor: [0.5, 1]
+      src: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAA...'
+    ```
+
+<img width="500px" src="https://user-images.githubusercontent.com/5616486/98552375-0d1fc200-22a7-11eb-9034-ac9e83d7186a.png" />
+
+
+<br/>
 
 ## Usage
 
