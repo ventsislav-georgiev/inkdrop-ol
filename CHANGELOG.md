@@ -1,3 +1,5 @@
+* v0.6.0:
+  * Debounce map updates
 * v0.5.0:
   * Reverse center coordinates to allow simple copy paste of coordinates from Google Maps
 * v0.4.0:
