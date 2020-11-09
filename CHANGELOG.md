@@ -1,3 +1,5 @@
+* v0.4.0:
+  * Change the default projection from EPSG:3857 to EPSG:4326
 * v0.3.0:
   * Fix for Google Maps mapType update
 * v0.2.0:

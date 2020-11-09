@@ -20,6 +20,8 @@ size:
   height: 350px
 
 view:
+  # The projection determines the coordinate system of the center, and its units determine the units of the resolution (projection units per pixel). The default projection is Spherical Mercator (EPSG:3857).
+  projection: 'EPSG:4326'
   # The initial center for the view.
   center: [-6655.5402445057125, 6709968.258934638]
   # Zoom level used to calculate the initial resolution for the view.
