@@ -1,3 +1,7 @@
+* v0.8.0:
+  * Add icon to the center coords. Supports:
+    * Icon change via dataUri
+    * Icon scaling
 * v0.7.0:
   * Transform center coords instead of changing the default map projection
 * v0.6.0:
