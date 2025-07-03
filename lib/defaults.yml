@@ -35,6 +35,27 @@ centerMarker:
   # Units in which the anchor y value is specified. A value of 'fraction' indicates the y value is a fraction of the icon. A value of 'pixels' indicates the y value in pixels.
   anchorYUnits: 'fraction'
 
+# See all icon options here: https://openlayers.org/en/latest/apidoc/module-ol_style_Icon-Icon.html
+markers:
+  # Image source URI.
+  src: https://openlayers.org/en/latest/examples/data/dot.svg
+  # The marker color. Can be hex, rgba, named html...
+  color: red
+  # Image size scale.
+  scale: 0.5
+  # Image opacity.
+  opacity: 1
+  # Position of the anchor. [0.5, 0.5] in fraction units will be the icon center.
+  anchor: [0.5, 0.5]
+  # Units in which the anchor x value is specified. A value of 'fraction' indicates the x value is a fraction of the icon. A value of 'pixels' indicates the x value in pixels.
+  anchorXUnits: 'fraction'
+  # Units in which the anchor y value is specified. A value of 'fraction' indicates the y value is a fraction of the icon. A value of 'pixels' indicates the y value in pixels.
+  anchorYUnits: 'fraction'
+  # items:
+  #   # The location for the pin. [Latitude, Longitude]
+  #   - location: [39, 140]
+  #   # Individual marker attributes can be overwritten. See all icon options here: https://openlayers.org/en/latest/apidoc/module-ol_style_Icon-Icon.html
+
 view:
   # The projection determines the coordinate system of the center, and its units determine the units of the resolution (projection units per pixel). The default projection is Spherical Mercator (EPSG:3857).
   projection: 'EPSG:3857'
