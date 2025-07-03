@@ -3,7 +3,7 @@ source: osm
 
 bing:
   # Your Bing Maps Key from http://www.bingmapsportal.com/ here
-  key: ApTJzdkyN1DdFKkRAE6QIDtzihNaf6IWJsT-nQ_2eMoO4PN__0Tzhl2-WgJtXFSp
+  key: ''
   # Can be: RoadOnDemand, Aerial, AerialWithLabelsOnDemand, CanvasDark, OrdnanceSurvey
   imagerySet: AerialWithLabelsOnDemand
 
@@ -40,6 +40,8 @@ view:
   projection: 'EPSG:3857'
   # The initial center for the view. [Latitude, Longitude]
   center: [51.506160, -0.124693]
+  # The extent for the view that includes the two coordiantes. [[minLatitude, minLongitude], [maxLatitude, maxLongitude]]
+  # extent: [[20.0, 100.0], [50.0, 150.0]]
   # Zoom level used to calculate the initial resolution for the view.
   zoom: 9
   # The minimum zoom level used to determine the resolution constraint. It is used together with maxZoom and zoomFactor.
