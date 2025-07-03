@@ -51,10 +51,14 @@ markers:
   anchorXUnits: 'fraction'
   # Units in which the anchor y value is specified. A value of 'fraction' indicates the y value is a fraction of the icon. A value of 'pixels' indicates the y value in pixels.
   anchorYUnits: 'fraction'
+  # Determines if the popup should automatically hide on map updates
+  hidePopupOnUpdate: true
   # items:
   #   # The location for the pin. [Latitude, Longitude]
   #   - location: [39, 140]
-  #   # Individual marker attributes can be overwritten. See all icon options here: https://openlayers.org/en/latest/apidoc/module-ol_style_Icon-Icon.html
+  #   # The popup text content
+  #     popupContent: <b>Message</b></br>This is a popup message with <a href="https://google.com">a link</a>
+  #   # Individual marker icon attributes can be overwritten. See all icon options here: https://openlayers.org/en/latest/apidoc/module-ol_style_Icon-Icon.html
 
 view:
   # The projection determines the coordinate system of the center, and its units determine the units of the resolution (projection units per pixel). The default projection is Spherical Mercator (EPSG:3857).
