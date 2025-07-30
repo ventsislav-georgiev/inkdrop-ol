@@ -3,7 +3,7 @@ source: osm
 
 bing:
   # Your Bing Maps Key from http://www.bingmapsportal.com/ here
-  key: ApTJzdkyN1DdFKkRAE6QIDtzihNaf6IWJsT-nQ_2eMoO4PN__0Tzhl2-WgJtXFSp
+  key: ''
   # Can be: RoadOnDemand, Aerial, AerialWithLabelsOnDemand, CanvasDark, OrdnanceSurvey
   imagerySet: AerialWithLabelsOnDemand
 
@@ -35,11 +35,38 @@ centerMarker:
   # Units in which the anchor y value is specified. A value of 'fraction' indicates the y value is a fraction of the icon. A value of 'pixels' indicates the y value in pixels.
   anchorYUnits: 'fraction'
 
+# See all icon options here: https://openlayers.org/en/latest/apidoc/module-ol_style_Icon-Icon.html
+markers:
+  # Image source URI.
+  src: https://openlayers.org/en/latest/examples/data/dot.svg
+  # The marker color. Can be hex, rgba, named html...
+  color: red
+  # Image size scale.
+  scale: 0.5
+  # Image opacity.
+  opacity: 1
+  # Position of the anchor. [0.5, 0.5] in fraction units will be the icon center.
+  anchor: [0.5, 0.5]
+  # Units in which the anchor x value is specified. A value of 'fraction' indicates the x value is a fraction of the icon. A value of 'pixels' indicates the x value in pixels.
+  anchorXUnits: 'fraction'
+  # Units in which the anchor y value is specified. A value of 'fraction' indicates the y value is a fraction of the icon. A value of 'pixels' indicates the y value in pixels.
+  anchorYUnits: 'fraction'
+  # Determines if the popup should automatically hide on map updates
+  hidePopupOnUpdate: true
+  # items:
+  #   # The location for the pin. [Latitude, Longitude]
+  #   - location: [39, 140]
+  #   # The popup text content
+  #     popupContent: <b>Message</b></br>This is a popup message with <a href="https://google.com">a link</a>
+  #   # Individual marker icon attributes can be overwritten. See all icon options here: https://openlayers.org/en/latest/apidoc/module-ol_style_Icon-Icon.html
+
 view:
   # The projection determines the coordinate system of the center, and its units determine the units of the resolution (projection units per pixel). The default projection is Spherical Mercator (EPSG:3857).
   projection: 'EPSG:3857'
   # The initial center for the view. [Latitude, Longitude]
   center: [51.506160, -0.124693]
+  # The extent for the view that includes the two coordiantes. [[minLatitude, minLongitude], [maxLatitude, maxLongitude]]
+  # extent: [[20.0, 100.0], [50.0, 150.0]]
   # Zoom level used to calculate the initial resolution for the view.
   zoom: 9
   # The minimum zoom level used to determine the resolution constraint. It is used together with maxZoom and zoomFactor.
